@@ -44,6 +44,7 @@ class App extends Component{
           <div className="main">
                 <img  src={this.state.person.imgSrc} alt="profile" className="myImg" />
                 <p className="fullName">{this.state.person.fullName}</p>
+                <p className="fullName">{this.state.person.bio}</p>
                 <p className="profession">{this.state.person.profession}</p>
           </div>)}
           <p className="Componentmounted ">Component mounted {this.state.interval} seconds ago.</p>
